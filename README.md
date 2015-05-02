@@ -24,4 +24,6 @@ This script reads pairs of edits to be made from the text file "editlist.txt." A
   * The length of time required for the script to complete varies significantly based on the length and complexity (e.g., tables, formatting) of the document being edited and on the number of edit pairs present in "editlist.txt."
   * Word is not usable while the script runs; go watch the Sun set while your document is edited. :-)
 7. Check for errors after the script finishes!
-  * While a lot of testing has been done on this script, it isn't perfect; this is why I highly recommend Track Changes be turned on when running this script! You have been warned.
+  * While a lot of testing has been done on this script, it isn't perfect; this is why I highly recommend that Track Changes be turned on when running this script! You have been warned.
+
+If you would like to contribute to this project, have any comments, or simply let me know that you used it, please email me at james@noblepursuits.us or contact me @noblepursuitsus.
