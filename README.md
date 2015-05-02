@@ -1,5 +1,6 @@
 #autoedit
 An automated editing script for Microsoft Word
+
 Written in Visual Basic, version 14.0 (2010)
 
 Created by James Harper, PE, james@noblepursuits.us
@@ -14,13 +15,13 @@ Please share and modify as you please; however, please always acknowledge my con
 This script reads pairs of edits to be made from the text file "editlist.txt." After parsing the text from the file into usable arrays (edit_orig and edit_new), the script searches the Word document for each piece of original text found in the elements of the array "edit_orig;" when one is located, it is replaced with the corresponding piece of "new text" (i.e., the edit to be made) in the corresponding element of the array "edit_new."
 
 ###Instructions
-1) Download the files "autoedit.bas" and "editlist.txt."
-2) Open the Visual Basic Editor in Microsoft Word.
-3) Import "autoedit.bas."
-4) Modify the path in the first line of code to point to the folder where you placed "editlist.txt."
-5) Open the Word document you'd like to autoedit and turn on Track Changes (high recommended but not required).
-6) Run the script from within the Visual Basic Editor and wait for it to complete
-   - The length of time required for the script to complete varies significantly based on the length and complexity (e.g., tables, formatting) of the document being edited and on the number of edit pairs present in "editlist.txt."
-   - Word is not usable while the script runs; go watch the Sun set while your document is edited. :-)
-7) Check for errors after the script finishes!
-   - While a lot of testing has been done on this script, it isn't perfect; this is why I highly recommend Track Changes be turned on when running this script! You have been warned.
+1. Download the files "autoedit.bas" and "editlist.txt."
+2. Open the Visual Basic Editor in Microsoft Word.
+3. Import "autoedit.bas."
+4. Modify the path in the first line of code to point to the folder where you placed "editlist.txt."
+5. Open the Word document you'd like to autoedit and turn on Track Changes (high recommended but not required).
+6. Run the script from within the Visual Basic Editor and wait for it to complete
+⋅⋅* The length of time required for the script to complete varies significantly based on the length and complexity (e.g., tables, formatting) of the document being edited and on the number of edit pairs present in "editlist.txt."
+⋅⋅* Word is not usable while the script runs; go watch the Sun set while your document is edited. :-)
+7. Check for errors after the script finishes!
+⋅⋅* While a lot of testing has been done on this script, it isn't perfect; this is why I highly recommend Track Changes be turned on when running this script! You have been warned.
