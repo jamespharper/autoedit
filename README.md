@@ -1,5 +1,5 @@
 #autoedit
-An automated editing script for Microsoft Word
+An automated editing script for Microsoft Word that works with Track Changes
 
 Written in Visual Basic, version 14.0 (2010)
 
