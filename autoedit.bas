@@ -1,10 +1,7 @@
+Attribute VB_Name = "Module2"
 Sub autoedit()
 'An automated editing script for Microsoft Word
-'Created by James Harper, PE, james@noblepursuits.us
-
-    '********
-    'From ReadEditList() in Module2
-    'Need to make ReadEditList() return arrays “edit_orig” and “edit_new” to autoedit()
+'Created by James Harper, james@noblepursuits.us
 
     'Read edits from text file called "editlist_test"
     Open "Mac OS X:Users:jamesharper:GitHub:autoedit:editlist_test" For Input As #1
@@ -33,15 +30,19 @@ Sub autoedit()
         If word = "" Then
             'MsgBox ("Blank line reached")
             Exit For
-        ElseIf word <> "-" Then
+        ElseIf Mid(word, 1, 3) = "###" Then
+            'MsgBox ("Skipping line starting with ###")
+        ElseIf Mid(word, 1, 3) <> "---" Then
             If n_orig = n_new Then     'Original text found
                 ReDim Preserve edit_orig(UBound(edit_orig) + 1)
-                edit_orig(n_orig) = word
+                edit_orig(n_orig) = Mid(word, 1, Len(word) - 3)   'Remove last three characters in word and save in edit_orig
+                'MsgBox (edit_orig(n_orig))
                 n_orig = n_orig + 1
                 'MsgBox ("n_orig = " & n_orig)
             Else                             'New text found
                 ReDim Preserve edit_new(UBound(edit_new) + 1)
-                edit_new(n_new) = word
+                edit_new(n_new) = Mid(word, 1, Len(word) - 3)   'Remove last three characters in word and save in edit_new
+                'MsgBox (edit_new(n_new))
                 n_new = n_new + 1
                 'MsgBox ("n_new = " & n_new)
             End If
@@ -51,8 +52,6 @@ Sub autoedit()
     'Shrink edit_orig and edit_new to just before first blank edit_orig element
     ReDim Preserve edit_orig(UBound(edit_orig) - 1)
     ReDim Preserve edit_new(UBound(edit_new) - 1)
-
-    '********
 
     'Fix the skipped blank header/footer problem
     Dim lngJunk As Long
