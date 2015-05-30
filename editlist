@@ -306,8 +306,8 @@ does not###
     text(109, 1) = " minimum "
     text(110, 0) = " maximal "
     text(110, 1) = " maximum "
-    text(111, 0) = "What's more"
-    text(111, 1) = "Additionally)"
+    text(111, 0) = "What's more,"
+    text(111, 1) = "Additionally,"
     text(112, 0) = "the present research"
     text(112, 1) = "this study"
     text(113, 0) = " geometrical "
@@ -316,6 +316,10 @@ does not###
     text(114, 1) = "currently"
     text(115, 0) = "and so on"
     text(115, 1) = "etc."
+---
+etc ###
+etc. ###
+---
     text(116, 0) = "slightly"
     text(116, 1) = "marginally"
     text(117, 0) = "a part of"
@@ -356,52 +360,63 @@ does not###
     text(134, 1) = ""
     text(135, 0) = "in the present paper"
     text(135, 1) = "in this study"
-    text(136, 0) = "as can be seen"
-    text(136, 1) = "as shown"
-    text(137, 0) = "moreover, "
-    text(137, 1) = ""
-    text(138, 0) = "in the current study"
-    text(138, 1) = "in this study"
-    text(141, 0) = "on the contrary"
-    text(141, 1) = "conversely"
-    text(142, 0) = "the present work"
-    text(142, 1) = "this study"
-    text(143, 0) = "can be seen"
-    text(143, 1) = "is shown"
-    text(144, 0) = "raise"
-    text(144, 1) = "increase"
-    text(145, 0) = "whole"
-    text(145, 1) = "entire"
-    text(146, 0) = " get "
-    text(146, 1) = " obtain "
-    text(147, 0) = " got "
-    text(147, 1) = " obtained "
-    text(148, 0) = " et.al"
-    text(148, 1) = " et al."
-    text(149, 0) = "it is seen"
-    text(149, 1) = "it is shown"
-    text(150, 0) = "according to"
-    text(150, 1) = "based on"
-    text(151, 0) = " °C"
-    text(151, 1) = "°C"
-    text(152, 0) = "criterions"
-    text(152, 1) = "criteria"
+---
+at present###
+currently###
+---
+as can be seen###
+as shown###
+---
+moreover, ###
+ ###
+---
+in the current study###
+in this study###
+---
+on the contrary###
+conversely###
+---
+the present work###
+this study###
+---
+can be seen###
+is shown###
+---
+raise###
+increase###
+---
+whole###
+entire###
+---
+ get ###
+ obtain ###
+---
+ got ###
+ obtained ###
+---
+ et.al###
+ et al.###
+---
+it is seen###
+it is shown###
+---
+according to###
+based on###
+---
+ °C###
+°C###
+---
+criterions###
+criteria###
 
+### ALL TEXT BELOW THIS LINE IS IGNORED BY THE AUTOEDIT SCRIPT
 
-
-
-
-
-
-
-
-
-
-    'text(21, 0) = " fig. "
-    'text(21, 1) = " Fig. "
-    'text(22, 0) = " eqs. "
-    'text(22, 1) = " Eqs. "
-    'text(15, 0) = " Where "
+To Add:
+text(21, 0) = " fig. "
+text(21, 1) = " Fig. "
+text(22, 0) = " eqs. "
+text(22, 1) = " Eqs. "
+text(15, 0) = " Where "
     'text(15, 1) = " where "
     'text(10, 0) = " eq. "
     'text(10, 1) = " Eq. "
