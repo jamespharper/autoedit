@@ -1,1 +1,413 @@
-### editlist### Contains all edits to be made by autoedit script###### Notes:### - All lines starting with "###" are ignored.### - All lines starting with "---" are considered to indicate that the###   following line is the start of a new edit pair.### - Edits must be input in pairs across two lines, where the first line###   is the text to be edited, and the second line is the text that will###   replace the text to be edited.### - All lines in an edit pair must end with "###" or any other three###   characters; these will be deleted by the autoedit script. This allows###   the use of trailing spaces to be used (e.g., differentiating between###   the words "main" and "maintain")### - Any blank line will cause the autoedit script to not read any edit###   pairs below that blank line###### BE SURE TO READ THROUGH THE FINAL DOCUMENT AND RUN A SPELL CHECK;### THIS SCRIPT DOES NOT CREATE ACCURATE EDITS IN ALL SITUATIONS.###### BELOW THIS LINE, MAINTAIN THE ORDER DESCRIBED ABOVE AND SHOWN BELOW---on the other hand,###conversely,###---close to###near###---don't###do not###---because of###due to###---elucidated###described###---harder###more difficult###---adopted###used###---illustrated###shown###--- %###%###---in contrast###conversely###---about###approximately###--- perform### done###---get###obtain###---yet,###however,###---nevertheless,###however,###---besides,###however,###---but,###however,###---likewise,###similarly,###--- mainly### primarily###---carried out###performed###---by means of###using###---at the same time,###concurrently,###--- gives### yields###--- enough### sufficient###---our research###this study###--- main ### primary ###---almost the same###nearly identical###---obvious###significant###---complicated###complex###---largely###significantly###---especially###particularly###---the Eq.###Eq.###---takes into account###accounts for###---on the other side,###conversely,###--- moreover, ### ###--- in order ### ###---where, ###where ###--- as a whole, ### ###--- to be able ### ###--- so, ### ###--- meanwhile, ### ###--- since ### because ###--- impact ### influence ###---we can see###it is shown###--- happen ### occur ###--- takes place ### occurs ###---    text(43, 0) = " in other words, "    text(43, 1) = " "    'text(44, 0) = "we "    'text(44, 1) = "the authors "    text(45, 0) = "a little"    text(45, 1) = "slightly"    text(46, 0) = " means "    text(46, 1) = " indicates "    text(47, 0) = " In fact, "    text(47, 1) = " "    text(48, 0) = "a lot"    text(48, 1) = "significantly"    text(49, 0) = " bad "    text(49, 1) = " poor "    text(50, 0) = " it's "    text(50, 1) = " it is "    text(51, 0) = " took place "    text(51, 1) = " occured "    text(52, 0) = " indexes "    text(52, 1) = " indices "    text(53, 0) = " too much "    text(53, 1) = " significantly "    text(54, 0) = " owing to "    text(54, 1) = " due to "    text(55, 0) = " greatly "    text(55, 1) = " significantly "    text(56, 0) = " namely, "    text(56, 1) = " "    text(58, 0) = "doesn't"    text(58, 1) = "does not"    text(59, 0) = " a bit "    text(59, 1) = " some "    text(60, 0) = "the present study"    text(60, 1) = "this study"    text(61, 0) = "taken into account"    text(61, 1) = "considered"    text(62, 0) = "in the whole"    text(62, 1) = "throughout the"    text(63, 0) = " our "    text(63, 1) = " this "    text(64, 0) = "the sake of "    text(64, 1) = " "    text(65, 0) = "take into account"    text(65, 1) = "consider"    text(66, 0) = "in comparison with"    text(66, 1) = "compared to"    text(67, 0) = "on the basis of"    text(67, 1) = "based on"    text(68, 0) = "in comparison to"    text(68, 1) = "compared to"    text(69, 0) = "the point of view"    text(69, 1) = "the perspective"    text(70, 0) = "), ("    text(70, 1) = "; "    text(71, 0) = " handle "    text(71, 1) = " manage "    text(72, 0) = "mostly"    text(72, 1) = "primarily"    text(73, 0) = " all of the "    text(73, 1) = " all "    text(74, 0) = " all the "    text(74, 1) = " all "    text(75, 0) = " need to be "    text(75, 1) = " must be "    text(76, 0) = " needs to be "    text(76, 1) = " must be "    text(77, 0) = "takes the value"    text(77, 1) = "equals"    text(78, 0) = "takes value"    text(78, 1) = "equals"    text(79, 0) = "in accordance to"    text(79, 1) = "in accordance with"    text(80, 0) = " associated to "    text(80, 1) = " associated with "    text(81, 0) = " some of the "    text(81, 1) = " some "    text(82, 0) = " most of the "    text(82, 1) = " most "    text(83, 0) = " most of "    text(83, 1) = " most "    'text(84, 0) = " us "    'text(84, 1) = " the authors "    text(85, 0) = " et al "    text(85, 1) = " et al. "    text(86, 0) = " multi "    text(86, 1) = " multiple "    text(87, 0) = " put forward"    text(87, 1) = " proposed"    text(88, 0) = " so as to "    text(88, 1) = " to "    text(89, 0) = " needs to "    text(89, 1) = " must "    text(90, 0) = " besides "    text(90, 1) = " in addition to "    text(91, 0) = " has to be "    text(91, 1) = " must be "    text(92, 0) = " have to be "    text(92, 1) = " must be "    text(93, 0) = " during the whole "    text(93, 1) = " throughout the "    text(94, 0) = "employed"    text(94, 1) = "used"    text(95, 0) = " cope with "    text(95, 1) = " manage "    text(96, 0) = " starts out "    text(96, 1) = " begins "    text(97, 0) = " happens "    text(97, 1) = " occurs "    text(98, 0) = " both of the "    text(98, 1) = " both "    text(99, 0) = " both of "    text(99, 1) = " both "    text(100, 0) = " taking into account "    text(100, 1) = " considering "    text(102, 0) = "formulas"    text(102, 1) = "formulae"    text(103, 0) = "In the present work, "    text(103, 1) = "In this study, "    text(104, 0) = " sharply "    text(104, 1) = " significantly "    text(105, 0) = " crucial "    text(105, 1) = " critical "    text(106, 0) = "needed"    text(106, 1) = "required"    text(107, 0) = "kind"    text(107, 1) = "type"    text(108, 0) = " actual "    text(108, 1) = " real "    text(109, 0) = " minimal "    text(109, 1) = " minimum "    text(110, 0) = " maximal "    text(110, 1) = " maximum "    text(111, 0) = "What's more"    text(111, 1) = "Additionally)"    text(112, 0) = "the present research"    text(112, 1) = "this study"    text(113, 0) = " geometrical "    text(113, 1) = " geometric "    text(114, 0) = "nowadays"    text(114, 1) = "currently"    text(115, 0) = "and so on"    text(115, 1) = "etc."    text(116, 0) = "slightly"    text(116, 1) = "marginally"    text(117, 0) = "a part of"    text(117, 1) = "a portion of"    text(118, 0) = "figured out"    text(118, 1) = "determined"    text(119, 0) = "figure out"    text(119, 1) = "determine"    text(120, 0) = " can't "    text(120, 1) = " cannot "    text(121, 0) = " isn't"    text(121, 1) = " is not"    text(122, 0) = "point of view"    text(122, 1) = "perspective"    text(123, 0) = "as long as"    text(123, 1) = "if"    text(124, 0) = "taken as"    text(124, 1) = "considered to be"    text(125, 0) = "&"    text(125, 1) = "and"    text(126, 0) = "starts"    text(126, 1) = "begins"    text(127, 0) = "finishes"    text(127, 1) = "ends"    text(128, 0) = "for the purpose of"    text(128, 1) = "to"    text(129, 0) = "take place"    text(129, 1) = "occur"    text(130, 0) = "whereas"    text(130, 1) = "while"    text(131, 0) = "almost"    text(131, 1) = "nearly"    text(132, 0) = "furthermore"    text(132, 1) = "also"    text(133, 0) = "what is more"    text(133, 1) = "additionally"    text(134, 0) = "it should be mentioned that"    text(134, 1) = ""    text(135, 0) = "in the present paper"    text(135, 1) = "in this study"    text(136, 0) = "as can be seen"    text(136, 1) = "as shown"    text(137, 0) = "moreover, "    text(137, 1) = ""    text(138, 0) = "in the current study"    text(138, 1) = "in this study"    text(141, 0) = "on the contrary"    text(141, 1) = "conversely"    text(142, 0) = "the present work"    text(142, 1) = "this study"    text(143, 0) = "can be seen"    text(143, 1) = "is shown"    text(144, 0) = "raise"    text(144, 1) = "increase"    text(145, 0) = "whole"    text(145, 1) = "entire"    text(146, 0) = " get "    text(146, 1) = " obtain "    text(147, 0) = " got "    text(147, 1) = " obtained "    text(148, 0) = " et.al"    text(148, 1) = " et al."    text(149, 0) = "it is seen"    text(149, 1) = "it is shown"    text(150, 0) = "according to"    text(150, 1) = "based on"    text(151, 0) = " °C"    text(151, 1) = "°C"    text(152, 0) = "criterions"    text(152, 1) = "criteria"    'text(21, 0) = " fig. "    'text(21, 1) = " Fig. "    'text(22, 0) = " eqs. "    'text(22, 1) = " Eqs. "    'text(15, 0) = " Where "    'text(15, 1) = " where "    'text(10, 0) = " eq. "    'text(10, 1) = " Eq. "    'text(11, 0) = " the same "    'text(11, 1) = " identical "    'text(1, 0) = " around "    'text(1, 1) = " approximately "    'text(2, 0) = " about "    'text(2, 1) = " near "
+### editlist
+### Contains all edits to be made by autoedit script
+###
+### Notes:
+### - All lines starting with "###" are ignored.
+### - All lines starting with "---" are considered to indicate that the
+###   following line is the start of a new edit pair.
+### - Edits must be input in pairs across two lines, where the first line
+###   is the text to be edited, and the second line is the text that will
+###   replace the text to be edited.
+### - All lines in an edit pair must end with "###" or any other three
+###   characters; these will be deleted by the autoedit script. This allows
+###   the use of trailing spaces to be used (e.g., differentiating between
+###   the words "main" and "maintain")
+### - Any blank line will cause the autoedit script to not read any edit
+###   pairs below that blank line
+###
+### BE SURE TO READ THROUGH THE FINAL DOCUMENT AND RUN A SPELL CHECK;
+### THIS SCRIPT DOES NOT CREATE ACCURATE EDITS IN ALL SITUATIONS.
+###
+### BELOW THIS LINE, MAINTAIN THE ORDER DESCRIBED ABOVE AND SHOWN BELOW
+---
+on the other hand,###
+conversely,###
+---
+close to###
+near###
+---
+don't###
+do not###
+---
+because of###
+due to###
+---
+elucidated###
+described###
+---
+harder###
+more difficult###
+---
+adopted###
+used###
+---
+illustrated###
+shown###
+---
+ %###
+%###
+---
+in contrast###
+conversely###
+---
+about###
+approximately###
+---
+ perform###
+ done###
+---
+get###
+obtain###
+---
+yet,###
+however,###
+---
+nevertheless,###
+however,###
+---
+besides,###
+however,###
+---
+but,###
+however,###
+---
+likewise,###
+similarly,###
+---
+ mainly###
+ primarily###
+---
+carried out###
+performed###
+---
+by means of###
+using###
+---
+at the same time,###
+concurrently,###
+---
+ gives###
+ yields###
+---
+ enough###
+ sufficient###
+---
+our research###
+this study###
+---
+ main ###
+ primary ###
+---
+almost the same###
+nearly identical###
+---
+obvious###
+significant###
+---
+complicated###
+complex###
+---
+largely###
+significantly###
+---
+especially###
+particularly###
+---
+the Eq.###
+Eq.###
+---
+takes into account###
+accounts for###
+---
+on the other side,###
+conversely,###
+---
+ moreover, ###
+ ###
+---
+ in order ###
+ ###
+---
+where, ###
+where ###
+---
+ as a whole, ###
+ ###
+---
+ to be able ###
+ ###
+---
+ so, ###
+ ###
+---
+ meanwhile, ###
+ ###
+---
+ since ###
+ because ###
+---
+ impact ###
+ influence ###
+---
+we can see###
+it is shown###
+---
+ happen ###
+ occur ###
+---
+ takes place ###
+ occurs ###
+---
+ in other words, ###
+ ###
+---
+we ###
+the authors ###
+---
+a little###
+slightly###
+---
+ means ###
+ indicates ###
+---
+ In fact, ###
+ ###
+---
+a lot###
+significantly###
+---
+ bad ###
+ poor ###
+---
+ it's ###
+ it is ###
+---
+ took place ###
+ occured ###
+---
+ indexes ###
+ indices ###
+---
+ too much ###
+ significantly ###
+---
+ owing to ###
+ due to ###
+---
+ greatly ###
+ significantly ###
+---
+ namely, ###
+ ###
+---
+doesn't###
+does not###
+---
+ a bit ###
+ some ###
+---
+    text(60, 0) = "the present study"
+    text(60, 1) = "this study"
+    text(61, 0) = "taken into account"
+    text(61, 1) = "considered"
+    text(62, 0) = "in the whole"
+    text(62, 1) = "throughout the"
+    text(63, 0) = " our "
+    text(63, 1) = " this "
+    text(64, 0) = "the sake of "
+    text(64, 1) = " "
+    text(65, 0) = "take into account"
+    text(65, 1) = "consider"
+    text(66, 0) = "in comparison with"
+    text(66, 1) = "compared to"
+    text(67, 0) = "on the basis of"
+    text(67, 1) = "based on"
+    text(68, 0) = "in comparison to"
+    text(68, 1) = "compared to"
+    text(69, 0) = "the point of view"
+    text(69, 1) = "the perspective"
+    text(70, 0) = "), ("
+    text(70, 1) = "; "
+    text(71, 0) = " handle "
+    text(71, 1) = " manage "
+    text(72, 0) = "mostly"
+    text(72, 1) = "primarily"
+    text(73, 0) = " all of the "
+    text(73, 1) = " all "
+    text(74, 0) = " all the "
+    text(74, 1) = " all "
+    text(75, 0) = " need to be "
+    text(75, 1) = " must be "
+    text(76, 0) = " needs to be "
+    text(76, 1) = " must be "
+    text(77, 0) = "takes the value"
+    text(77, 1) = "equals"
+    text(78, 0) = "takes value"
+    text(78, 1) = "equals"
+    text(79, 0) = "in accordance to"
+    text(79, 1) = "in accordance with"
+    text(80, 0) = " associated to "
+    text(80, 1) = " associated with "
+    text(81, 0) = " some of the "
+    text(81, 1) = " some "
+    text(82, 0) = " most of the "
+    text(82, 1) = " most "
+    text(83, 0) = " most of "
+    text(83, 1) = " most "
+    'text(84, 0) = " us "
+    'text(84, 1) = " the authors "
+    text(85, 0) = " et al "
+    text(85, 1) = " et al. "
+    text(86, 0) = " multi "
+    text(86, 1) = " multiple "
+    text(87, 0) = " put forward"
+    text(87, 1) = " proposed"
+    text(88, 0) = " so as to "
+    text(88, 1) = " to "
+    text(89, 0) = " needs to "
+    text(89, 1) = " must "
+    text(90, 0) = " besides "
+    text(90, 1) = " in addition to "
+    text(91, 0) = " has to be "
+    text(91, 1) = " must be "
+    text(92, 0) = " have to be "
+    text(92, 1) = " must be "
+    text(93, 0) = " during the whole "
+    text(93, 1) = " throughout the "
+    text(94, 0) = "employed"
+    text(94, 1) = "used"
+    text(95, 0) = " cope with "
+    text(95, 1) = " manage "
+    text(96, 0) = " starts out "
+    text(96, 1) = " begins "
+    text(97, 0) = " happens "
+    text(97, 1) = " occurs "
+    text(98, 0) = " both of the "
+    text(98, 1) = " both "
+    text(99, 0) = " both of "
+    text(99, 1) = " both "
+    text(100, 0) = " taking into account "
+    text(100, 1) = " considering "
+    text(102, 0) = "formulas"
+    text(102, 1) = "formulae"
+    text(103, 0) = "In the present work, "
+    text(103, 1) = "In this study, "
+    text(104, 0) = " sharply "
+    text(104, 1) = " significantly "
+    text(105, 0) = " crucial "
+    text(105, 1) = " critical "
+    text(106, 0) = "needed"
+    text(106, 1) = "required"
+    text(107, 0) = "kind"
+    text(107, 1) = "type"
+    text(108, 0) = " actual "
+    text(108, 1) = " real "
+    text(109, 0) = " minimal "
+    text(109, 1) = " minimum "
+    text(110, 0) = " maximal "
+    text(110, 1) = " maximum "
+    text(111, 0) = "What's more"
+    text(111, 1) = "Additionally)"
+    text(112, 0) = "the present research"
+    text(112, 1) = "this study"
+    text(113, 0) = " geometrical "
+    text(113, 1) = " geometric "
+    text(114, 0) = "nowadays"
+    text(114, 1) = "currently"
+    text(115, 0) = "and so on"
+    text(115, 1) = "etc."
+    text(116, 0) = "slightly"
+    text(116, 1) = "marginally"
+    text(117, 0) = "a part of"
+    text(117, 1) = "a portion of"
+    text(118, 0) = "figured out"
+    text(118, 1) = "determined"
+    text(119, 0) = "figure out"
+    text(119, 1) = "determine"
+    text(120, 0) = " can't "
+    text(120, 1) = " cannot "
+    text(121, 0) = " isn't"
+    text(121, 1) = " is not"
+    text(122, 0) = "point of view"
+    text(122, 1) = "perspective"
+    text(123, 0) = "as long as"
+    text(123, 1) = "if"
+    text(124, 0) = "taken as"
+    text(124, 1) = "considered to be"
+    text(125, 0) = "&"
+    text(125, 1) = "and"
+    text(126, 0) = "starts"
+    text(126, 1) = "begins"
+    text(127, 0) = "finishes"
+    text(127, 1) = "ends"
+    text(128, 0) = "for the purpose of"
+    text(128, 1) = "to"
+    text(129, 0) = "take place"
+    text(129, 1) = "occur"
+    text(130, 0) = "whereas"
+    text(130, 1) = "while"
+    text(131, 0) = "almost"
+    text(131, 1) = "nearly"
+    text(132, 0) = "furthermore"
+    text(132, 1) = "also"
+    text(133, 0) = "what is more"
+    text(133, 1) = "additionally"
+    text(134, 0) = "it should be mentioned that"
+    text(134, 1) = ""
+    text(135, 0) = "in the present paper"
+    text(135, 1) = "in this study"
+    text(136, 0) = "as can be seen"
+    text(136, 1) = "as shown"
+    text(137, 0) = "moreover, "
+    text(137, 1) = ""
+    text(138, 0) = "in the current study"
+    text(138, 1) = "in this study"
+    text(141, 0) = "on the contrary"
+    text(141, 1) = "conversely"
+    text(142, 0) = "the present work"
+    text(142, 1) = "this study"
+    text(143, 0) = "can be seen"
+    text(143, 1) = "is shown"
+    text(144, 0) = "raise"
+    text(144, 1) = "increase"
+    text(145, 0) = "whole"
+    text(145, 1) = "entire"
+    text(146, 0) = " get "
+    text(146, 1) = " obtain "
+    text(147, 0) = " got "
+    text(147, 1) = " obtained "
+    text(148, 0) = " et.al"
+    text(148, 1) = " et al."
+    text(149, 0) = "it is seen"
+    text(149, 1) = "it is shown"
+    text(150, 0) = "according to"
+    text(150, 1) = "based on"
+    text(151, 0) = " °C"
+    text(151, 1) = "°C"
+    text(152, 0) = "criterions"
+    text(152, 1) = "criteria"
+
+
+
+
+
+
+
+
+
+
+
+    'text(21, 0) = " fig. "
+    'text(21, 1) = " Fig. "
+    'text(22, 0) = " eqs. "
+    'text(22, 1) = " Eqs. "
+    'text(15, 0) = " Where "
+    'text(15, 1) = " where "
+    'text(10, 0) = " eq. "
+    'text(10, 1) = " Eq. "
+    'text(11, 0) = " the same "
+    'text(11, 1) = " identical "
+    'text(1, 0) = " around "
+    'text(1, 1) = " approximately "
+    'text(2, 0) = " about "
+    'text(2, 1) = " near "
