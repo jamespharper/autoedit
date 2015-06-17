@@ -19,7 +19,7 @@ This script reads pairs of edits to be made from the text file "editlist.txt." A
 2. Open the Visual Basic Editor in Microsoft Word.
 3. Import "autoedit.bas."
 4. Modify the path in the first line of code to point to the folder where you placed "editlist.txt."
-5. Open the Word document you'd like to autoedit and turn on Track Changes (high recommended but not required).
+5. Open the Word document you'd like to autoedit and turn on Track Changes (highly recommended but not required, see below).
 6. Run the script from within the Visual Basic Editor and wait for it to complete
   * The length of time required for the script to complete varies significantly based on the length and complexity (e.g., tables, formatting) of the document being edited and on the number of edit pairs present in "editlist.txt."
   * Word is not usable while the script runs; go watch the Sun set while your document is edited. :-)
