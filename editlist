@@ -1,443 +1,1 @@
-### editlist
-### Contains all edits to be made by autoedit script
-###
-### Notes:
-### - All lines starting with "###" are ignored.
-### - All lines starting with "---" are considered to indicate that the
-###   following line is the start of a new edit pair.
-### - Edits must be input in pairs across two lines, where the first line
-###   is the text to be edited, and the second line is the text that will
-###   replace the text to be edited.
-### - All lines in an edit pair must end with "###" or any other three
-###   characters; these will be deleted by the autoedit script. This allows
-###   the use of trailing spaces to be used (e.g., differentiating between
-###   the words "main" and "maintain")
-### - Any blank line will cause the autoedit script to not read any edit
-###   pairs below that blank line
-###
-### BE SURE TO READ THROUGH THE FINAL DOCUMENT AND RUN A SPELL CHECK;
-### THIS SCRIPT DOES NOT CREATE ACCURATE EDITS IN ALL SITUATIONS.
-###
-### BELOW THIS LINE, MAINTAIN THE ORDER DESCRIBED ABOVE AND SHOWN BELOW
----
-on the other hand,###
-conversely,###
----
-close to###
-near###
----
-don't###
-do not###
----
-because of###
-due to###
----
-elucidated###
-described###
----
-harder###
-more difficult###
----
-adopted###
-used###
----
-illustrated###
-shown###
----
- %###
-%###
----
-in contrast###
-conversely###
----
-about###
-approximately###
----
- perform###
- done###
----
-get###
-obtain###
----
-yet,###
-however,###
----
-nevertheless,###
-however,###
----
-besides,###
-however,###
----
-but,###
-however,###
----
-likewise,###
-similarly,###
----
- mainly###
- primarily###
----
-carried out###
-performed###
----
-by means of###
-using###
----
-at the same time,###
-concurrently,###
----
- gives###
- yields###
----
- enough###
- sufficient###
----
-our research###
-this study###
----
- main ###
- primary ###
----
-almost the same###
-nearly identical###
----
-obvious###
-significant###
----
-complicated###
-complex###
----
-largely###
-significantly###
----
-especially###
-particularly###
----
-the Eq.###
-Eq.###
----
-takes into account###
-accounts for###
----
-on the other side,###
-conversely,###
----
- moreover, ###
- ###
----
- in order ###
- ###
----
-where, ###
-where ###
----
- as a whole, ###
- ###
----
- to be able ###
- ###
----
- so, ###
- ###
----
- meanwhile, ###
- ###
----
- since ###
- because ###
----
- impact ###
- influence ###
----
-we can see###
-it is shown###
----
- happen ###
- occur ###
----
- takes place ###
- occurs ###
----
- in other words, ###
- ###
----
-we ###
-the authors ###
----
-a little###
-slightly###
----
- means ###
- indicates ###
----
- In fact, ###
- ###
----
-a lot###
-significantly###
----
- bad ###
- poor ###
----
- it's ###
- it is ###
----
- took place ###
- occured ###
----
- indexes ###
- indices ###
----
- too much ###
- significantly ###
----
- owing to ###
- due to ###
----
- greatly ###
- significantly ###
----
- namely, ###
- ###
----
-doesn't###
-does not###
----
- a bit ###
- some ###
----
-the present study###
-this study###
----
-taken into account###
-considered###
----
-take into account###
-consider###
----
-in the whole###
-throughout the###
----
- our ###
- this ###
----
-the sake of ###
- ###
----
-in comparison with###
-compared to###
----
-on the basis of###
-based on###
----
-in comparison to###
-compared to###
----
-the point of view###
-the perspective###
----
- handle ###
- manage ###
----
-mostly###
-primarily###
----
- all of the ###
- all ###
----
- all the ###
- all ###
----
- need to be ###
- must be ###
----
- needs to be ###
- must be ###
----
-takes the value###
-equals###
----
-takes value###
-equals###
----
-in accordance to###
-in accordance with###
----
-    text(80, 0) = " associated to "
-    text(80, 1) = " associated with "
-    text(81, 0) = " some of the "
-    text(81, 1) = " some "
-    text(82, 0) = " most of the "
-    text(82, 1) = " most "
-    text(83, 0) = " most of "
-    text(83, 1) = " most "
-    'text(84, 0) = " us "
-    'text(84, 1) = " the authors "
-    text(85, 0) = " et al "
-    text(85, 1) = " et al. "
-    text(86, 0) = " multi "
-    text(86, 1) = " multiple "
-    text(87, 0) = " put forward"
-    text(87, 1) = " proposed"
-    text(88, 0) = " so as to "
-    text(88, 1) = " to "
-    text(89, 0) = " needs to "
-    text(89, 1) = " must "
-    text(90, 0) = " besides "
-    text(90, 1) = " in addition to "
-    text(91, 0) = " has to be "
-    text(91, 1) = " must be "
-    text(92, 0) = " have to be "
-    text(92, 1) = " must be "
-    text(93, 0) = " during the whole "
-    text(93, 1) = " throughout the "
-    text(94, 0) = "employed"
-    text(94, 1) = "used"
-    text(95, 0) = " cope with "
-    text(95, 1) = " manage "
-    text(96, 0) = " starts out "
-    text(96, 1) = " begins "
-    text(97, 0) = " happens "
-    text(97, 1) = " occurs "
-    text(98, 0) = " both of the "
-    text(98, 1) = " both "
-    text(99, 0) = " both of "
-    text(99, 1) = " both "
-    text(100, 0) = " taking into account "
-    text(100, 1) = " considering "
-    text(102, 0) = "formulas"
-    text(102, 1) = "formulae"
-    text(103, 0) = "In the present work, "
-    text(103, 1) = "In this study, "
-    text(104, 0) = " sharply "
-    text(104, 1) = " significantly "
-    text(105, 0) = " crucial "
-    text(105, 1) = " critical "
-    text(106, 0) = "needed"
-    text(106, 1) = "required"
-    text(107, 0) = "kind"
-    text(107, 1) = "type"
-    text(108, 0) = " actual "
-    text(108, 1) = " real "
-    text(109, 0) = " minimal "
-    text(109, 1) = " minimum "
-    text(110, 0) = " maximal "
-    text(110, 1) = " maximum "
-    text(111, 0) = "What's more,"
-    text(111, 1) = "Additionally,"
-    text(112, 0) = "the present research"
-    text(112, 1) = "this study"
-    text(113, 0) = " geometrical "
-    text(113, 1) = " geometric "
-    text(114, 0) = "nowadays"
-    text(114, 1) = "currently"
-    text(115, 0) = "and so on"
-    text(115, 1) = "etc."
----
-etc ###
-etc. ###
----
-    text(116, 0) = "slightly"
-    text(116, 1) = "marginally"
-    text(117, 0) = "a part of"
-    text(117, 1) = "a portion of"
-    text(118, 0) = "figured out"
-    text(118, 1) = "determined"
-    text(119, 0) = "figure out"
-    text(119, 1) = "determine"
-    text(120, 0) = " can't "
-    text(120, 1) = " cannot "
-    text(121, 0) = " isn't"
-    text(121, 1) = " is not"
-    text(122, 0) = "point of view"
-    text(122, 1) = "perspective"
-    text(123, 0) = "as long as"
-    text(123, 1) = "if"
-    text(124, 0) = "taken as"
-    text(124, 1) = "considered to be"
-    text(125, 0) = "&"
-    text(125, 1) = "and"
-    text(126, 0) = "starts"
-    text(126, 1) = "begins"
-    text(127, 0) = "finishes"
-    text(127, 1) = "ends"
-    text(128, 0) = "for the purpose of"
-    text(128, 1) = "to"
-    text(129, 0) = "take place"
-    text(129, 1) = "occur"
-    text(130, 0) = "whereas"
-    text(130, 1) = "while"
-    text(131, 0) = "almost"
-    text(131, 1) = "nearly"
-    text(132, 0) = "furthermore"
-    text(132, 1) = "also"
-    text(133, 0) = "what is more"
-    text(133, 1) = "additionally"
-    text(134, 0) = "it should be mentioned that"
-    text(134, 1) = ""
-    text(135, 0) = "in the present paper"
-    text(135, 1) = "in this study"
----
-at present###
-currently###
----
-as can be seen###
-as shown###
----
-moreover, ###
- ###
----
-in the current study###
-in this study###
----
-on the contrary###
-conversely###
----
-the present work###
-this study###
----
-can be seen###
-is shown###
----
-raise###
-increase###
----
-whole###
-entire###
----
- get ###
- obtain ###
----
- got ###
- obtained ###
----
- et.al###
- et al.###
----
-it is seen###
-it is shown###
----
-according to###
-based on###
----
- °C###
-°C###
----
-criterions###
-criteria###
----
-find out###
-determine###
----
-
-### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
-### IS IGNORED BY THE AUTOEDIT SCRIPT.
-
-To Add:
-fig. --> Fig.
-eqs. --> Eqs.
-Where --> where
-eq. --> Eq.
-the same --> identical (problems)
-around --> approximately
-about --> near
+### editlist### Contains all edits to be made by the autoedit script###### Notes:### - Each new line represents a new edit pair.### - Edits must be input in pairs, where the first piece of text###   is the text to be edited, followed by an arrow (--->) and the second###   piece of text is the text that will replace the text to be edited.### - All lines in an edit pair must end with "###" or any other three###   characters; these will be deleted by the autoedit script. This allows###   for trailing spaces to be used, which is useful in many circumstances###   (e.g., differentiating between the words "main" and "maintain").### - Any blank line will cause the autoedit script to not read any edit###   pairs below that blank line.###### BE SURE TO READ THROUGH THE FINAL WORD DOCUMENT AFTER RUNNING THE### AUTOEDIT SCRIPT AND RUN A SPELL CHECK; THIS SCRIPT DOES NOT CREATE### ACCURATE EDITS IN ALL SITUATIONS.###### BELOW THIS LINE, MAINTAIN THE STRUCTURE DESCRIBED ABOVE AND SHOWN BELOWon the other hand,--->conversely,###close to--->near###don't--->do not###because of--->due to###elucidated--->described###harder--->more difficult###adopted--->used###illustrated--->shown### %--->%###in contrast--->conversely###about--->approximately### perform---> done###get--->obtain###yet,--->however,###nevertheless,--->however,###besides,--->however,###but,--->however,###likewise,--->similarly,### mainly---> primarily###carried out--->performed###by means of--->using###at the same time,--->concurrently,### gives---> yields### enough---> sufficient###our research--->this study### main ---> primary ###almost the same--->nearly identical###obvious--->significant###complicated--->complex###largely--->significantly###especially--->particularly###the Eq.--->Eq.###takes into account--->accounts for###on the other side,--->conversely,### moreover, ---> ### in order ---> ###where, --->where ### as a whole, ---> ### to be able ---> ### so, ---> ### meanwhile, ---> ### since ---> because ### impact ---> influence ###we can see--->it is shown### happen ---> occur ### takes place ---> occurs ### in other words, ---> ###we --->the authors ###a little--->slightly### means ---> indicates ### In fact, ---> ###a lot--->significantly### bad ---> poor ### it's ---> it is ### took place ---> occured ### indexes ---> indices ### too much ---> significantly ### owing to ---> due to ### greatly ---> significantly ### namely, ---> ###doesn't--->does not### a bit ---> some ###the present study--->this study###taken into account--->considered###take into account--->consider###in the whole--->throughout the### our ---> this ###the sake of ---> ###in comparison with--->compared to###on the basis of--->based on###in comparison to--->compared to###the point of view--->the perspective### handle ---> manage ###mostly--->primarily### need to be ---> must be ### needs to be ---> must be ###takes the value--->equals###takes value--->equals###in accordance to--->in accordance with### associated to ---> associated with ### some of the ---> some ### most of the ---> most ### et al ---> et al. ### multi ---> multiple ### put forward---> proposed### so as to ---> to ### needs to ---> must ### besides ---> in addition to ### has to be ---> must be ### have to be ---> must be ### during the whole ---> throughout the ###employed--->used### cope with ---> manage ### do ---> perform ### starts out ---> begins ### happens ---> occurs ### both of the ---> both ### both of ---> both ### taking into account ---> considering ###formulas--->formulae###In the present work, --->In this study, ### sharply ---> significantly ### crucial ---> critical ###needed--->required###kind--->type### actual ---> real ### minimal ---> minimum ### maximal ---> maximum ###What's more,--->Additionally,###the present research--->this study### geometrical ---> geometric ###nowadays--->currently###and so on--->etc.###etc --->etc. ###slightly--->marginally###a part of--->a portion of###figured out--->determined###figure out--->determine### can't ---> cannot ### isn't---> is not###point of view--->perspective###as long as--->if###taken as--->considered to be###&--->and###starts--->begins###finishes--->ends###for the purpose of--->to###take place--->occur###whereas--->while###almost--->nearly###furthermore--->also###what is more--->additionally###it should be mentioned that ---> ###in the present paper--->in this study###at present--->currently###as can be seen--->as shown###moreover, ---> ###in the current study--->in this study###on the contrary--->conversely###the present work--->this study###can be seen--->is shown###raise--->increase###whole--->entire### get ---> obtain ### got ---> obtained ### et.al---> et al.###it is seen--->it is shown###according to--->based on### °C--->°C###criterions--->criteria###find out--->determine###slight--->marginal###hard --->difficult ###deposited on--->deposited onto###dispersed on--->dispersed onto###by applying--->using###around --->approximately ###about --->near ###in literatures--->in the literature###### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE### IS IGNORED BY THE AUTOEDIT SCRIPT.TO DO:Add error checking for editlist fileGroup similar edits (e.g., deletions, same words)? Make separate function called ReadEditList() that reads editlist file and return arrays “edit_orig” and “edit_new” to autoedit()More Complex:by--->using### only if by isn't followed by a gerundfig.--->Fig.eqs.--->Eqs.Where--->whereeq.--->Eq.as (at the beginning of a sentence) --->becauseRecognize these types of phrases: ("for constructing") and change to "to construct"mm (after a number)---> mmProblems:the same --> identical (problems)us --> the authorsall of the ---> all ### all the ---> all ### most of ---> most ###
