@@ -106,7 +106,6 @@ in accordance to--->in accordance with###
  has to be ---> must be ###
  have to be ---> must be ###
  during the whole ---> throughout the ###
-employed--->used###
  cope with ---> manage ###
  starts out ---> begins ###
  happens ---> occurs ###
@@ -179,12 +178,11 @@ obtained as--->described by###
 by using--->using###
 until now--->to date###
  here ---> in this study ###
-it's--->it is###
 Eq.(--->Eq. (###
 Eqs.(--->Eqs. (###
+it's--->it is###
 polyhedrons--->polyhedra###
 in the present investigation--->in this study###
-utilized--->used###
 utilize--->use###
 it is worth mentioning that ---> ###
 ",--->,"###
@@ -192,10 +190,10 @@ it is worth mentioning that ---> ###
 by utilizing--->using###
 by contrast--->conversely###
 employing--->using###
-employ--->use###
+employ --->use ###
+employed--->used###
 the current work--->this study###
  about---> approximately###
-".--->.”###
  a must---> required###
  is still---> remains###
 suppose--->it is assumed###
@@ -203,6 +201,9 @@ suppose--->it is assumed###
 study on --->study of ###
 quite a few--->many###
 usually--->typically###
+in the present article--->in this study###
+firstly,--->first,###
+secondly,--->second,###
 
 ### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
 ### IS IGNORED BY THE AUTOEDIT SCRIPT.
@@ -219,7 +220,6 @@ fig.--->Fig.
 eqs.--->Eqs.
 Where--->where
 eq.--->Eq.
-as (at the beginning of a sentence) --->because
 Recognize these types of phrases: ("for constructing") and change to "to construct"
 mm (after a number)---> mm
 μl--->μL###
@@ -235,3 +235,4 @@ all of the ---> all ###
 >---> > ###
 <---> < ###
 ≤---> ≤ ###
+. As --->. Because ###
