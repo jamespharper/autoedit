@@ -39,7 +39,7 @@ likewise,--->similarly,###
  mainly---> primarily###
 carried out--->performed###
 by means of--->using###
-at the same time,--->concurrently,###
+at the same time--->concurrently###
  gives---> yields###
  enough---> sufficient###
 our research--->this study###
@@ -97,7 +97,6 @@ takes value--->equals###
 in accordance to--->in accordance with###
  associated to ---> associated with ###
  some of the ---> some ###
- most of the ---> most ###
  et al ---> et al. ###
  multi ---> multiple ###
  put forward---> proposed###
@@ -204,6 +203,22 @@ usually--->typically###
 in the present article--->in this study###
 firstly,--->first,###
 secondly,--->second,###
+greatest--->most significant###
+ doing---> performing###
+the figure--->figure###
+the table--->table###
+offsprings--->offspring###
+matrixes--->matrices###
+i.e. --->i.e., ###
+couldn't--->could not###
+give --->provide ###
+didn't--->did not###
+wrong--->incorrect###
+figuring out--->determining###
+paid attention to--->considered###
+considered as--->considered to be###
+keep--->maintain###
+some --->certain ###
 
 ### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
 ### IS IGNORED BY THE AUTOEDIT SCRIPT.
@@ -224,6 +239,9 @@ Recognize these types of phrases: ("for constructing") and change to "to constru
 mm (after a number)---> mm
 μl--->μL###
 Capitalize next word if delete start of sentence
+Any plural noun with the word "of" after it that is not preceed by "the" (e.g., Microstructures of ...--->The microstructures of...)
+Any singular noun without the word "of" after it that is preceeded by "the" (e.g., The microstructures with ...--->Microstructures with...)
+Change all commas after a colon and before a period to semi colons
 
 Problems:
 the same --> identical
@@ -231,6 +249,7 @@ us --> the authors
 all of the ---> all ###
  all the ---> all ###
  most of ---> most ###
+ most of the ---> most ###
 =---> = ###
 >---> > ###
 <---> < ###
