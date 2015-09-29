@@ -64,7 +64,7 @@ we can see--->it is shown###
  happen ---> occur ###
  takes place ---> occurs ###
  in other words, ---> ###
-a little--->slightly###
+a little--->marginal326ly###
  means ---> indicates ###
  In fact, ---> ###
 a lot--->significantly###
@@ -146,12 +146,11 @@ what is more--->additionally###
 it should be mentioned that ---> ###
 in the present paper--->in this study###
 at present--->currently###
-as can be seen--->as shown###
 moreover, ---> ###
 in the current study--->in this study###
 on the contrary--->conversely###
 the present work--->this study###
-can be seen--->is shown###
+can be seen--->shown###
 raise--->increase###
 whole--->entire###
  get ---> obtain ###
@@ -168,7 +167,6 @@ hard --->difficult ###
 deposited on--->deposited onto###
 dispersed on--->dispersed onto###
 by applying--->using###
-around --->approximately ###
 in literatures--->in the literature###
 take into consideration--->consider###
 taken into consideration--->considered###
@@ -177,6 +175,7 @@ obtained as--->described by###
 by using--->using###
 until now--->to date###
  here ---> in this study ###
+Here,--->In this study,###
 Eq.(--->Eq. (###
 Eqs.(--->Eqs. (###
 it's--->it is###
@@ -192,7 +191,6 @@ employing--->using###
 employ --->use ###
 employed--->used###
 the current work--->this study###
- about---> approximately###
  a must---> required###
  is still---> remains###
 suppose--->it is assumed###
@@ -217,13 +215,15 @@ wrong--->incorrect###
 figuring out--->determining###
 paid attention to--->considered###
 considered as--->considered to be###
+regarded as--->considered to be###
 keep--->maintain###
 some --->certain ###
+carried on--->performed###
 
 ### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
 ### IS IGNORED BY THE AUTOEDIT SCRIPT.
--
-TO DO:
+
+To Do:
 Add error checking for editlist file
 Group similar edits (e.g., deletions, same words)
 ? Make separate function called ReadEditList() that reads editlist file and return arrays “edit_orig” and “edit_new” to autoedit()
@@ -242,6 +242,7 @@ Capitalize next word if delete start of sentence
 Any plural noun with the word "of" after it that is not preceed by "the" (e.g., Microstructures of ...--->The microstructures of...)
 Any singular noun without the word "of" after it that is preceeded by "the" (e.g., The microstructures with ...--->Microstructures with...)
 Change all commas after a colon and before a period to semi colons
+Change any list of nouns with numerals to only list the pluralized noun at the end of the list (e.g., "the 1st floor, the 2nd floor and the 3rd floor" to "the 1st, 2nd and 3rd floors")
 
 Problems:
 the same --> identical
@@ -255,3 +256,5 @@ all of the ---> all ###
 <---> < ###
 ≤---> ≤ ###
 . As --->. Because ###
+around --->approximately ###
+ about---> approximately###
