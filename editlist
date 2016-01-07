@@ -18,7 +18,14 @@
 ### ACCURATE EDITS IN ALL SITUATIONS.
 ###
 ### BELOW THIS LINE, MAINTAIN THE STRUCTURE DESCRIBED ABOVE AND SHOWN BELOW
-on the other hand,--->conversely,###
+on the other hand--->conversely###
+in the other hand--->conversely###
+in contrast--->conversely###
+on the other side--->conversely###
+on the contrary--->conversely###
+in contrary--->conversely###
+by contrast--->conversely###
+in turn,--->conversely,###
 close to--->near###
 don't--->do not###
 because of--->due to###
@@ -27,7 +34,6 @@ harder--->more difficult###
 adopted--->used###
 illustrated--->shown###
  %--->%###
-in contrast--->conversely###
 yet,--->however,###
 nevertheless,--->however,###
 besides,--->however,###
@@ -51,7 +57,6 @@ largely--->markedly###
 especially--->particularly###
 the Eq.--->Eq.###
 takes into account--->accounts for###
-on the other side,--->conversely,###
  moreover, ---> ###
 in order --->###
 where, --->where ###
@@ -110,6 +115,7 @@ in accordance to--->in accordance with###
  happens ---> occurs ###
  both of the ---> both ###
  both of ---> both ###
+ the both--->both###
  taking into account ---> considering ###
 formulas--->formulae###
 In the present work, --->In this study, ###
@@ -148,7 +154,6 @@ in the present paper--->in this study###
 at present--->currently###
 moreover, ---> ###
 in the current study--->in this study###
-on the contrary--->conversely###
 the present work--->this study###
 can be seen--->shown###
 raise--->increase###
@@ -182,10 +187,8 @@ polyhedrons--->polyhedra###
 in the present investigation--->in this study###
 utilize--->use###
 it is worth mentioning that ---> ###
-",--->,"###
  extra ---> additional ###
 by utilizing--->using###
-by contrast--->conversely###
 employing--->using###
 employ --->use ###
 employed--->used###
@@ -231,10 +234,12 @@ decreases of --->decreases in ###
 compared with--->compared to###
 tailor-made--->custom###
 the rest--->the remainder###
-in turn,--->conversely,###
 in accordance with--->based on###
 becomes greater than--->exceeds###
 become greater than--->exceed###
+be also--->also be###
+ done ---> performed ###
+kept fixed--->held constant###
 
 ### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
 ### IS IGNORED BY THE AUTOEDIT SCRIPT.
@@ -246,14 +251,15 @@ Group similar edits (e.g., deletions, same words)
 Make all edits only to "Final" version of document, not "Original"
 
 More Complex:
-by--->using### only if by isn't followed by a gerund
+by--->using### only if by isn't followed by a gerand
 fig.--->Fig.
 eqs.--->Eqs.
 Where--->where
 eq.--->Eq.
-Recognize these types of phrases: ("for constructing") and change to "to construct"
 mm (after a number)---> mm
 μl--->μL###
+for GERAND--->to VERB### (e.g., recognize "for constructing" and change to "to construct")
+"Where" at the beginning of a sentence --> "where"
 Capitalize next word if delete start of sentence
 Any plural noun with the word "of" after it that is not preceed by "the" (e.g., Microstructures of ...--->The microstructures of...)
 Any singular noun without the word "of" after it that is preceeded by "the" (e.g., The microstructures with ...--->Microstructures with...)
