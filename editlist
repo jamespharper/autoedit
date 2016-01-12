@@ -219,7 +219,7 @@ paid attention to--->considered###
 considered as--->considered to be###
 regarded as--->considered to be###
 keep--->maintain###
-some --->certain ###
+ some ---> certain ###
 carried on--->performed###
 thrice--->three times###
 herein--->in this study###
@@ -241,6 +241,14 @@ be also--->also be###
  done ---> performed ###
 kept fixed--->held constant###
 in consequence--->thus###
+maybe--->perhaps###
+just like--->similar to###
+pointed out--->noted###
+point out--->note###
+it is not surprising that ---> ###
+it should be evident that ---> ###
+ tries ---> attempts ###
+in addition to that--->additionally###
 
 ### DUE TO THE BLANK LINE ABOVE, ALL TEXT BELOW THIS LINE
 ### IS IGNORED BY THE AUTOEDIT SCRIPT.
@@ -266,6 +274,7 @@ Any plural noun with the word "of" after it that is not preceed by "the" (e.g., 
 Any singular noun without the word "of" after it that is preceeded by "the" (e.g., The microstructures with ...--->Microstructures with...)
 Change all commas after a colon and before a period to semi colons
 Change any list of nouns with numerals to only list the pluralized noun at the end of the list (e.g., "the 1st floor, the 2nd floor and the 3rd floor" to "the 1st, 2nd and 3rd floors")
+is not only ___ but also --->is ___ and###
 
 Problems:
 the same --> identical
